@@ -11,7 +11,7 @@
     display: flex;
     justify-content: center;
     align-items: center; 
-    background-color: rgb(255, 229, 198);
+    background: url("https://github.com/bumblebee026/SpotTheGreenDot/blob/master/images.png?raw=true") no-repeat fixed center;
   }
   
   .wrapper {
@@ -29,24 +29,12 @@
     top: 0;
     width: 100px;
     height: 100px;
-    background-color: #2bff00;
+    background-color: #00ff00b4;
     border-radius: 50%;
     box-shadow: inset 0 -10px 20px gray;
     animation: bounce 0.7s cubic-bezier(0.49, 0, 0.89, 0.74) infinite alternate;
   }
   
-  /* Shadow Style */
-  .shadow {
-    position: absolute;
-    top: 400px;
-    height: 20px;
-    width: 100px;
-    background-color: black;
-    border-radius: 50%;
-    box-shadow: 0 0 10px black;
-    z-index: -1;
-    animation: shadow 0.7s cubic-bezier(0.49, 0, 0.89, 0.74) infinite alternate;
-  }
   
   /* Ball Bounce Animation */
   @keyframes bounce {
@@ -104,5 +92,5 @@
     background-color: red;
     color: white;
     text-align: center;
-    font-size: 26px;
+    font-size: 30px;
   }
